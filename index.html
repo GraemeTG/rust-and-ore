@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body class="">
+
+  <header>
+    <h1 class="fake-logo">Rust & Ore</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Releases</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <a href="#">Others</a>
+
+    </nav>
+  </header>
+
+  <main class="layout">
+
+    <h1>h1 Heading</h1>
+
+    <style>
+      .brands {
+        display: grid;
+      }
+
+      .brands {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 1rem;
+      }
+
+      .brands__item {
+        background: #eee;
+      }
+
+      .brands__item img {
+        width: 130px;
+        height: 100px;
+        object-fit: contain;
+        mix-blend-mode: multiply;
+      }
+
+      .brands__item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+
+
+    <ul class="brands">
+      <li class="brands__item">
+        <a href="#">
+          <img src="http://graemeg20.sg-host.com/wp-content/uploads/2022/07/logo-ctc.png" alt="" />
+        </a>
+      </li>
+      <li class="brands__item">
+        <a href="#">
+          <img src="http://graemeg20.sg-host.com/wp-content/uploads/2022/07/cropped-logo-1.png" alt="" />
+        </a>
+      </li>
+    </ul>
+
+
+
+
+    <!-- Add your site or application content here -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </p>
+
+    <hr>
+
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet, <strong>>consectetur adipiscing elit</strong>, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> quis nostrud
+      </p>
+    </blockquote>
+
+    <h2>h2 Heading</h2>
+    <!-- Add your site or application content here -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <h3>h3 Heading</h3>
+    <h4>h4 Heading</h4>
+    <h5>h5 Heading</h5>
+    <h6>h6 Heading</h6>
+
+    <hr />
+
+    <div class="grid cols-4">
+      <!-- Add your site or application content here -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <ul>
+        <li>Hi</li>
+        <li>Hello</li>
+        <li>You</li>
+      </ul>
+
+      <p>Column 3 in my grid</p>
+      <p>Column 4 in my grid</p>
+    </div>
+
+    <hr>
+
+    <div class="card">
+      <h3>Card Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button>Accept</button>
+    </div>
+
+    <hr>
+
+    <h5>.split</h5>
+    <div class="split">
+      <aside>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+      </aside>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <h5>.grid .grid--split</h5>
+    <div class="grid grid--split">
+      <aside>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+      </aside>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <hr>
+
+    <!-- ADD A KITCHEN SINK FORM -->
+    <h3>Form</h3>
+    <form action="#">
+      <div class="flex flex-around">
+        <!--<div class="flex flex-around"></div>-->
+        <div>
+          <label for="text">Text Col 1</label>
+          <input placeholder="Graeme TG">
+        </div>
+        <div>
+          <label for="number">Number Col 2</label>
+          <input placeholder="5" id="number" type="number">
+        </div>
+        <div>
+          <label for="email">Email Col 3</label>
+          <input placeholder="myemail@email.com" id="email" type="email">
+        </div>
+      </div> <!-- End of Grid -->
+
+      <div><label for="textarea">Textarea</label>
+        <textarea id="textarea">Default value</textarea>
+      </div>
+
+
+
+      <div>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <!--<input type="submit" value="Submit">-->
+
+
+
+      <button>Submit</button>
+      <button class="cancel">Cancel</button>
+      <button disabled>Disabled</button>
+      <button>Button with long text</button>
+      <button>Button &xrarr;</button>
+      <br />
+      <button class="small">Submit</button>
+
+    </form>
+    <!-- END OF KITCHEN SINK FORM -->
+
+    <hr>
+
+
+
+  </main>
+
+  <footer>
+    <h3 class="fake-logo">Fake Logo</h3>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <p>&copy; 2022 Graeme TG</p>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments);
+    };
+    ga.q = [];
+    ga.l = +new Date();
+    ga("create", "UA-XXXXX-Y", "auto");
+    ga("set", "anonymizeIp", true);
+    ga("set", "transport", "beacon");
+    ga("send", "pageview");
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
